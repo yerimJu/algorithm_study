@@ -103,4 +103,8 @@
     x^y mod p = pow(x, y, p)
     ```
 13. Compiler는 Python3보다 Pypy3가 빠르다.
-14. 
+14. 마이너스 배열 1*1000 초기화
+    ```python
+    import math
+    arr = [-math.inf] * 1000
+    ```
